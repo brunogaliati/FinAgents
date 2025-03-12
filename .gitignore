@@ -34,13 +34,13 @@ ENV/
 
 # Project specific
 *.pdf
-# Permitir arquivos PNG na pasta charts, mas ignorar outros PNGs
+# Permitir arquivos PNG na pasta charts e o diagrama de workflow
 /*.png
-/portfolio_workflow.png
+# Permitir o diagrama de workflow
+!portfolio_workflow.png
 !charts/
 !charts/*.png
 Portfolio_Investment_Report_*.txt
-portfolio_workflow
 portfolio_workflow.dot
 
 # Jupyter Notebooks
