@@ -34,7 +34,11 @@ ENV/
 
 # Project specific
 *.pdf
-*.png
+# Permitir arquivos PNG na pasta charts, mas ignorar outros PNGs
+/*.png
+/portfolio_workflow.png
+!charts/
+!charts/*.png
 Portfolio_Investment_Report_*.txt
 portfolio_workflow
 portfolio_workflow.dot
